@@ -4,7 +4,7 @@ import {createAsyncThunk} from '@reduxjs/toolkit'
 
 
 
-const baseUrl =`http://localhost:3001/api`
+const baseUrl =`https://cinelens-server.onrender.com/api`
 
 
 

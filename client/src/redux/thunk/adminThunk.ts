@@ -2,7 +2,7 @@ import { createAsyncThunk } from "@reduxjs/toolkit";
 import axios from "axios";
 import { RootState } from "../store";
 
-const baseUrl = `http://localhost:3001/api`
+const baseUrl = `https://cinelens-server.onrender.com/api`
 
 const addRoles = createAsyncThunk(
   "/admin/addroles",
