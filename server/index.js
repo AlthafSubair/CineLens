@@ -15,7 +15,7 @@ const app = express();
 const LOCAL_IP = "192.168.1.4"; // Change to your actual local IP
 
 app.use(cors({
-    origin: [`http://localhost:5173`], // Allow local and network access
+    origin: [`http://localhost:5173`, `https://cinelens-client.onrender.com`], // Allow local and network access
     methods: ["POST", "GET", "PUT", "DELETE", "PATCH"],
     allowedHeaders: ["Content-Type", "Authorization"],
     credentials: true
