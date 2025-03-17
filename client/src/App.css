@@ -1,0 +1,17 @@
+.custom-pagination .swiper-pagination-bullet {
+  @apply dark:bg-white; 
+  @apply bg-violet-800
+  /* Customize bullet color */
+}
+.custom-pagination .swiper-pagination-bullet-active {
+  @apply dark:bg-white; /* Customize active bullet color */
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;  /* Chrome, Safari and Opera */
+}
