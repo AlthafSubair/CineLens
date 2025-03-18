@@ -46,11 +46,11 @@ dispatch(getMovies())
     
     <Carousel />
 
-    <MovieScroll sectionName="Latest" movies={latestTen} setInfo={setInfo} setId={setId}/>
+      {  latestTen && <MovieScroll sectionName="Latest" movies={latestTen} setInfo={setInfo} setId={setId}/>}
 
-    <MovieScroll sectionName="Top Rated" movies={topTen} setInfo={setInfo} setId={setId}/>
+      {topTen &&  <MovieScroll sectionName="Top Rated" movies={topTen} setInfo={setInfo} setId={setId}/>}
 
-    <MovieScroll sectionName="Most Viewed" movies={mostViewed} setInfo={setInfo} setId={setId}/>
+      {mostViewed && <MovieScroll sectionName="Most Viewed" movies={mostViewed} setInfo={setInfo} setId={setId}/>}
 
   
   
